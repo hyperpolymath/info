@@ -17,6 +17,11 @@ A curated list of pandoc Lua filters in separate repositories.
 
 - [pagebreak] – manually insert page breaks.
 
+- [pandoc-a2ml] – custom reader, writer, filter, and template for
+  [A2ML][] (Attested Markup Language) documents. Supports headings,
+  directive blocks, opaque payloads, cross-references, and
+  round-trip conversion.
+
 - [pretty-urls] – removes the protocol prefix from link
   descriptions.
 
@@ -31,6 +36,8 @@ A curated list of pandoc Lua filters in separate repositories.
 [diagram]: https://github.com/pandoc-ext/diagram
 [include-code-files]: https://github.com/b3/include-code-files
 [pagebreak]: https://github.com/pandoc-ext/pagebreak
+[pandoc-a2ml]: https://github.com/hyperpolymath/pandoc-a2ml
+[A2ML]: https://github.com/hyperpolymath/standards/tree/main/a2ml
 [pretty-urls]: https://github.com/pandoc-ext/pretty-url
 [section-bibs]: https://github.com/pandoc-ext/section-bibliographies
 [markdown-to-bootstrap]: https://github.com/fxpar/markdown-to-bootstrap-pandoc-lua-filter
